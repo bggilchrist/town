@@ -1,5 +1,4 @@
 /*https://coolors.co/c09e80-4a5f6f-243323-1b1c17-9ebbd5*/
-/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 body {
 	width: 90%;
 	margin: auto;
@@ -7,14 +6,11 @@ body {
 	background: #243323;
 	color: #1B1C17;
 	font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
+	max-width: 1600px;
 }
 
 h1, h2, h3 {
 	text-align: center;
-	font-weight: 900;
 	text-transform: uppercase;
 }
 
@@ -37,29 +33,33 @@ h1, h2, h3 {
 	gap: 20px;
 	justify-content: space-between;
 	align-content: space-around;
-	margin-bottom: 50px;
 	flex: none;
 }
 
 .place {
-	padding: 0px 20px;
+	padding: 0px 20px 10px 20px;
 	flex: 1;
 }
 
 img {
 	object-fit: cover;
-width: 100%;
-height: 250px;
+	width: 100%;
+	height: 250px;
 }
 
 table {
 	margin: auto;
+	width: 200px;
 }
 
 .addr {
 	text-align: left;
 }
 
+.desc {
+	min-height: 100px;
+}
 
-
-
+.hours {
+	min-height: 150px;
+}
