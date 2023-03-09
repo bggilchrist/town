@@ -1,0 +1,63 @@
+/*https://coolors.co/c09e80-4a5f6f-243323-1b1c17-9ebbd5*/
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+body {
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+	background: #243323;
+	color: #1B1C17;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-weight: 900;
+}
+
+.place, #hero, img {
+	border-radius: 20px;
+}
+
+.place, #hero {
+	background: #9EBBD5;
+}
+
+#hero {
+	padding: 10px 20px 10px 20px;
+	margin: 20px 0;
+}
+
+#top3 {
+	display:flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-content: space-around;
+	margin-bottom: 50px;
+	flex: none;
+}
+
+.place {
+	padding: 0px 20px;
+	flex: 1;
+}
+
+img {
+	object-fit: cover;
+width: 100%;
+height: 250px;
+}
+
+table {
+	margin: auto;
+}
+
+.addr {
+	text-align: left;
+}
+
+
+
+
